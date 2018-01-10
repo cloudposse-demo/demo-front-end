@@ -57,3 +57,4 @@ resources:
 
 catalogue:
   enabled: true
+  fullnameOverride: catalogue
