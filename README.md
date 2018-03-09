@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/microservices-demo/front-end.svg?branch=master)](https://travis-ci.org/microservices-demo/front-end)
 [![](https://images.microbadger.com/badges/image/weaveworksdemos/front-end.svg)](http://microbadger.com/images/weaveworksdemos/front-end "Get your own image badge on microbadger.com")
 
+[![Codefresh Helm Release Status]( https://g.codefresh.io/api/badges/release?type=cf-1&key=eyJhbGciOiJIUzI1NiJ9.NWEwMTJmNWM3Yjg3YTQwMDAxYTlkMjU0.UwxTSXZGXq3wPQjj3O1k71kQsGuWGlzgkp9V2-llce8&selector=cluster-4&name=frontend-master&tillerNamespace=kube-system)]( https://g.codefresh.io/helm/releases/cluster-4/kube-system/frontend-master/services)
+
 
 Front-end app
 ---
