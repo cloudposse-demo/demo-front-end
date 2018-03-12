@@ -93,7 +93,7 @@ steps:
     when:
       condition:
         all:
-          executeForBranch: "'${{SEMVERSION_BRANCH}}' != ''"
+          executeForMasterBranch: "'${{CF_BRANCH}}' == 'master'"
 
   set-github-deployment-status-to-pending:
     title: Set GitHub "Staging Environment" deployment status to "pending"
@@ -138,7 +138,7 @@ steps:
       - CHART_NAME=frontend
       - RELEASE_NAME=frontend-${{FEATURE}}
       - KUBE_CONTEXT=cluster-4
-      - NAMESPACE=${{NAMESPACE}}
+      - NAMESPACE=${{NAM-ESPACE}}
       - CHART_VERSION=${{SEMVERSION_BRANCH}}
       - CHART_REPO_URL=${{REPO_ENDPOINT}}
       - WAIT=false
