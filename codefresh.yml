@@ -14,7 +14,7 @@ steps:
     title: Build image
     type: build
     description: Build frontend
-    image-name: cloudpossedemo/frontend
+    image_name: cloudpossedemo/frontend
     dockerfile: Dockerfile
 
   semver:
