@@ -3,6 +3,7 @@ image:
   repository: cloudpossedemo/frontend
   tag: '{{ (datasource "semver").version }}'
   pullPolicy: IfNotPresent
+  pullSecrets:
 deployment:
   ## Deployment annotations
   annotations: {}
